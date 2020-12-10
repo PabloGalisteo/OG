@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="/style.css">
+    <title>contact form</title>
+</head>
+
+<body>
+    <nav class="nav-bar">
+            
+        <li><a href="index.html"><img class="logo"  src="/images/OG-logo.png" alt=""></a></li>
+            <ul>
+                <li><a class="nav-links" href="/about.html">About</a></li>
+                <li><a class="nav-links" href="/contact.html">Contact</a></li>
+                <li><button class="buy-button nav-links">Buy Now</button></li>
+            </ul>
+    </nav>
+<link href="contact-form.css" rel="stylesheet">
+
+<div class="fcf-body">
+
+    <div id="fcf-form">
+    <h3 class="fcf-h3">Contact us</h3>
+
+    <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+        
+        <div class="fcf-form-group">
+            <label for="Name" class="fcf-label">Your name</label>
+            <div class="fcf-input-group">
+                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <label for="Email" class="fcf-label">Your email address</label>
+            <div class="fcf-input-group">
+                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <label for="Message" class="fcf-label">Your message</label>
+            <div class="fcf-input-group">
+                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+        </div>
+
+        <div class="fcf-credit" id="fcf-credit">
+        </div>
+
+    </form>
+    </div>
+
+</div>
+
+<footer id="main-footer">
+    <div class="container footer-container">
+        <div>
+            <img src="/images/OG-logo.png" alt="logo">
+            <p>You don't choose your bike or your clothes. They choose you. Don't hesitate to try our bikes or clothes. We offer a 30 days money back guarantee!</p>
+        </div>
+        <div>
+            <h3>Email Newsletter</h3>
+            <p>By subscribing to our Newsletter you'll get relevant information and updatings of our products</p>
+            <form>
+                <input type="email" placeholder="Enter email...">
+                <input type="submit" value="Subscribe" class="btn btn-primary">
+            </form>
+        </div>
+        <div>
+            <h3>Site Links</h3>
+            <ul class="list">
+                <li><a href="#">Costumer Service</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2>Join to Original Gangsta</h2>
+            <p>We offer exclusive offers and promotions for you that join to our Original Gangsta comunity. Join Now!</p>
+            <a href="" class="btn btn-secondary">Join Now</a>
+        </div>
+        <div>
+            <p>
+                Copyright &copy; 2020, All Gangsta Rights Reserved.
+            </p>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

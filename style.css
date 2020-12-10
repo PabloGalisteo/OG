@@ -1,0 +1,159 @@
+* {
+    font-family: 'Courgette', cursive;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+    color: inherit;
+    font-weight: bold;
+}
+
+li {
+    list-style: none;
+}
+
+.background-image {
+    height: 100%;
+    width: 100%;
+}
+
+.nav-bar li {
+    
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.logo {
+    margin: 35px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 10px;
+}
+
+.nav-links {
+    font-size: 18px;
+    padding: 10px;
+}
+
+.nav-links:hover {
+    font-size: 20px;
+    transform: scale(1.25) perspective(1px);
+}
+
+.buy-button {
+    border: 2px solid #eb801c;
+    color: #000000;
+    background: transparent;
+    width: 150px;
+    height:  50px;
+    cursor:  pointer;
+    font-size: 18px;
+    font-weight: 800;
+    border-radius:3px;
+    margin: 30px 0px 0px 30px;
+}
+
+.buy-button:hover {
+    background-color: #fd7e07;
+    transform: scale(1) perspective(0.5px);
+}
+
+h1 {
+    text-align: center;
+    padding: 2rem;
+    font-size: 30px;
+}
+
+h2 {
+    text-align: center;
+    padding: 2 rem;
+    font-size: 20px;
+    margin-bottom: 2rem;
+}
+
+.h2:hover {
+    font-size: 20px;
+    transform: scale(1.25) perspective(1px);
+}
+
+/* grid most sold products */
+
+.most-sold img {
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.most-sold {
+    display: grid;
+    grid-template-areas: 
+    'item item item';
+    grid-gap: 1rem;
+    padding: 1rem;
+    margin-bottom: 4rem;
+}
+
+/* footer */
+
+#main-footer {
+    background: rgb(46, 46, 46);
+    color: #fff;
+}
+
+
+#main-footer .footer-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1.5rem;
+}
+
+#main-footer .footer-container > *:first-child {
+    margin-left: 1rem;
+}
+
+#main-footer .footer-container > *:last-child {
+    background: rgb(0, 0, 0);
+    grid-column: 1 / span4;
+    padding: .5rem;
+    text-align: center;
+    font-size: 1rem;
+}
+
+#main-footer .footer-container input[type='email'] {
+width: 80%;
+padding: 0.5;
+margin-bottom: 0.5rem;
+}
+
+#main-footer .footer-container input[type='submit'] {
+    width: 80%;
+}
+
+p,h3,h2 {
+    margin: 1.5rem 0;
+}
+
+h3,h2 {
+    color: #494949;
+}
+
+/* contact form */
+
+.fcf-body {
+    margin-left: 250px;
+    margin-bottom: 50px;
+}
+
+#fcf-form-id .fcf-form-class {
+    width: 150%;
+}
